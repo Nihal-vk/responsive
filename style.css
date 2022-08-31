@@ -1,118 +1,119 @@
-.size
-{
+.size {
     width: 125px;
     height: 40px;
 }
-.align
-{
+
+.align {
     width: 40px;
     border-radius: 15px;
 }
-.style
-{
+
+.style {
     color: #8c8c8c;
 }
+
 .txt:hover {
     text-decoration: underline;
-    
+
 }
+
 @media screen and (min-width: 1190px) {
-    .nav1
-    {
-      margin-left: 30px;
+    .nav1 {
+        margin-left: 30px;
     }
 }
+
 @media screen and (max-width: 768px) {
-   .box
-   {
-    display: flex;
-    flex-direction: column-reverse;
-   }
+    .box {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
+
 @media screen and (max-width: 1200px) {
-    .margin
-    {
-       margin-top: 10px;
+    .margin {
+        margin-top: 10px;
     }
 
-    
+
 }
-.color
-{
+
+.color {
     background-color: #f4f5f5;
 }
-.card-color
-{
+
+.card-color {
     background-color: #e65f42;
     border-radius: 19px;
 }
-.card-border
-{
+
+.card-border {
     border-radius: 19px;
 }
-.image-size
-{
+
+.image-size {
     width: 12em;
 }
-.card-margin
-{
+
+.card-margin {
     margin-top: 85px;
 }
-.card-margin1
-{
+
+.card-margin1 {
     margin-top: 70px;
 }
-.font-color
-{
+
+.font-color {
     color: #fff59f;
 }
-.image-rel
-{
+
+.image-rel {
     position: relative;
 }
-.image-text
-{
+
+.image-text {
     position: absolute;
     bottom: 2em;
 }
-.image-text1
-{
+
+.image-text1 {
     position: absolute;
     top: 2em;
 }
-.button-style
-{
+
+.button-style {
     width: 20em;
     height: 4em;
     border-color: #007ee5;
     border-radius: 2em;
     color: #007ee5;
 }
-li{
+
+li {
     line-height: 4px;
 }
-.style-list
-{
+
+.style-list {
     border: none;
     background-color: #313233;
     color: #8c8c8c;
     cursor: pointer;
     font-size: 15px;
-   
+
 }
-.style-list:hover
-{
+
+.style-list:hover {
     color: cornflowerblue;
 }
-.style-listhead
-{
+
+.style-listhead {
     border: none;
     background-color: #313233;
     color: #fff;
     font-weight: bolder;
 }
-.style-listfirst
-{
+
+.style-listfirst {
     border: none;
     background-color: #313233;
     color: #8c8c8c;
@@ -121,20 +122,25 @@ li{
     cursor: pointer;
 
 }
-.style-listfirst:hover
-{
+
+.style-listfirst:hover {
     color: cornflowerblue;
 }
-.style-listend
-{
+
+.style-listend {
     border: none;
     background-color: #141414;
     color: #8c8c8c;
     font-size: 13px;
     cursor: pointer;
 }
-.style-listend:hover
-{
+
+.style-listend:hover {
     color: cornflowerblue;
 }
 
+@media screen and (min-width: 770px) {
+    .aligncard {
+        align-items: center;
+    }
+}
