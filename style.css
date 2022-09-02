@@ -30,9 +30,9 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 320px) {
     .margin {
-        margin-top: 10px;
+        margin-left: 10px;
     }
 
 
@@ -137,10 +137,4 @@ li {
 
 .style-listend:hover {
     color: cornflowerblue;
-}
-
-@media screen and (min-width: 770px) {
-    .aligncard {
-        align-items: center;
-    }
 }
